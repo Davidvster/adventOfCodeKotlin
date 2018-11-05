@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a85eb711-159a-499b-ab39-640887be11ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AdventCalendar 2015/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AdventCalendar 2015/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/META-INF/AdventCalendar.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/META-INF/AdventCalendar.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day1/Day1Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day1/Day1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day1/day1src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day10/Day10Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day11/Day11Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day12/Day12Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day12/Day12Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day12/day12src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day13/Day13Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day13/Day13Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day13/day13src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day14/Day14Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day14/Day14Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day14/Reindeer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day14/day14src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day15/Day15Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day15/Day15Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day15/Ingredient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day15/day15src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day16/Day16Kt$main$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day16/Day16Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day16/Day16Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day16/day16src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day17/Day17Kt$main$$inlined$sortBy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day17/Day17Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day17/Day17Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day17/day17src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day18/Day18Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day18/Day18Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day18/day18src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day19/Day19Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day19/Day19Kt$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day19/Day19Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day19/day19src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day19/day19src19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day2/Day2Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day2/Day2Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day2/day2src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day20/Day20Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day21/Accessory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day21/Day21Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day21/Fighter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day21/day21src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day22/Day22Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day22/Fighter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day22/Skill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day22/day22src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day23/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day23/Day23Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day23/Day23Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day23/day23src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day24/Day24Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day24/Day24Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day24/day24src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day24/day24src24.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day25/Day25Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day25/day25src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day3/Day3Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day3/Day3Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day3/day3src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day4/Day4Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day5/Day5Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day5/Day5Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day5/day5src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day6/Day6Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day6/Day6Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day6/day6src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day7/Circuit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day7/Day7Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day7/Day7Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day7/day7src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day8/Day8Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day8/Day8Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day8/day8src.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day9/Day9Kt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day9/Day9Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventCalendar 2015/out/production/AdventCalendar/day9/day9src.txt" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AdventCalendar$day13_Day13Kt.ic" NAME="day13.Day13Kt Coverage Results" MODIFIED="1540806040553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/AdventCalendar$day10_Day10Kt.ic" NAME="day10.Day10Kt Coverage Results" MODIFIED="1540391004317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-463767249">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="day1src" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="kt" value="27" />
+          <entry key="txt" value="23" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Kotlin" value="27" />
+          <entry key="PLAIN_TEXT" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="kt" value="8277" />
+          <entry key="txt" value="52" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Kotlin" value="8277" />
+          <entry key="PLAIN_TEXT" value="52" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="380075463">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="kt" value="24349" />
+          <entry key="txt" value="99" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Kotlin" value="24349" />
+          <entry key="PLAIN_TEXT" value="99" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="kt" value="121" />
+          <entry key="txt" value="39" />
+          <entry key="xml" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Kotlin" value="121" />
+          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AdventCalendar 2015/src/day1/day1.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>gd</find>
+      <find>am</find>
+      <find>cx</find>
+      <find>cu</find>
+      <find>cw</find>
+      <find>cy</find>
+      <find>cz</find>
+      <find>cf</find>
+      <find>cr</find>
+      <find>ce</find>
+      <find>bk</find>
+      <find>bj</find>
+      <find>ao</find>
+      <find>u</find>
+      <find>t</find>
+      <find>s</find>
+      <find>name:a</find>
+      <find>c</find>
+      <find>name:lx</find>
+      <find>lx</find>
+      <find>rege</find>
+      <find>print</find>
+      <find>red</find>
+      <find>copy</find>
+      <find>Copy</find>
+      <find>type</find>
+      <find>740</find>
+      <find>1020</find>
+      <find>720</find>
+      <find>skill</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/AdventCalendar 2015" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/day7/day7src7.txt" />
+        <option value="$PROJECT_DIR$/src/day8/day8src.txt" />
+        <option value="$PROJECT_DIR$/src/day8/day8src8.txt" />
+        <option value="$PROJECT_DIR$/src/day9/day9src.txt" />
+        <option value="$PROJECT_DIR$/src/day5/day5.kt" />
+        <option value="$PROJECT_DIR$/src/day6/day6.kt" />
+        <option value="$PROJECT_DIR$/src/day9/day9src9.txt" />
+        <option value="$PROJECT_DIR$/src/day10/day10.kt" />
+        <option value="$PROJECT_DIR$/src/day11/day11.kt" />
+        <option value="$PROJECT_DIR$/src/day12/day12src12.txt" />
+        <option value="$PROJECT_DIR$/src/day12/day12src.txt" />
+        <option value="$PROJECT_DIR$/src/day12/day12src122.txt" />
+        <option value="$PROJECT_DIR$/src/day14/day14src.txt" />
+        <option value="$PROJECT_DIR$/src/day14/day14src14.txt" />
+        <option value="$PROJECT_DIR$/src/day13/day13src.txt" />
+        <option value="$PROJECT_DIR$/src/day15/day15src.txt" />
+        <option value="$PROJECT_DIR$/src/day16/day16src.txt" />
+        <option value="$PROJECT_DIR$/src/day17/day17src.txt" />
+        <option value="$PROJECT_DIR$/src/day18/day18src.txt" />
+        <option value="$PROJECT_DIR$/src/day18/day18src18.txt" />
+        <option value="$PROJECT_DIR$/src/day19/day19src.txt" />
+        <option value="$PROJECT_DIR$/src/day19/day19src19.txt" />
+        <option value="$PROJECT_DIR$/src/day19/day19.kt" />
+        <option value="$PROJECT_DIR$/src/day4/day4.kt" />
+        <option value="$PROJECT_DIR$/src/day21/day21src.txt" />
+        <option value="$PROJECT_DIR$/src/day20/day20.kt" />
+        <option value="$PROJECT_DIR$/src/day22/day22src.txt" />
+        <option value="$PROJECT_DIR$/src/day21/day21.kt" />
+        <option value="$PROJECT_DIR$/src/day1/day1.kt" />
+        <option value="$PROJECT_DIR$/src/day2/day2.kt" />
+        <option value="$PROJECT_DIR$/src/day8/day8.kt" />
+        <option value="$PROJECT_DIR$/src/day12/day12.kt" />
+        <option value="$PROJECT_DIR$/src/day14/day14.kt" />
+        <option value="$PROJECT_DIR$/src/day16/day16.kt" />
+        <option value="$PROJECT_DIR$/src/day3/day3.kt" />
+        <option value="$PROJECT_DIR$/src/day7/day7.kt" />
+        <option value="$PROJECT_DIR$/src/day18/day18.kt" />
+        <option value="$PROJECT_DIR$/src/day23/day23src.txt" />
+        <option value="$PROJECT_DIR$/src/day23/day23.kt" />
+        <option value="$PROJECT_DIR$/src/day24/day24src.txt" />
+        <option value="$PROJECT_DIR$/src/day25/day25src.txt" />
+        <option value="$PROJECT_DIR$/src/day25/day25.kt" />
+        <option value="$PROJECT_DIR$/src/day9/day9.kt" />
+        <option value="$PROJECT_DIR$/src/day17/day17src17.txt" />
+        <option value="$PROJECT_DIR$/src/day17/day17.kt" />
+        <option value="$PROJECT_DIR$/src/day13/day13.kt" />
+        <option value="$PROJECT_DIR$/src/day15/day15.kt" />
+        <option value="$PROJECT_DIR$/src/day22/day22.kt" />
+        <option value="$PROJECT_DIR$/src/day24/day24src24.txt" />
+        <option value="$PROJECT_DIR$/src/day24/day24.kt" />
+        <option value="$PROJECT_DIR$/src/2015/day1/day1.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1440" />
+    <option name="y" value="-85" />
+    <option name="width" value="1920" />
+    <option name="height" value="1177" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AdventCalendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdventCalendar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdventCalendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdventCalendar" type="462c0819:PsiDirectoryNode" />
+              <item name="AdventCalendar 2015" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdventCalendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdventCalendar" type="462c0819:PsiDirectoryNode" />
+              <item name="AdventCalendar 2015" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdventCalendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdventCalendar" type="462c0819:PsiDirectoryNode" />
+              <item name="AdventCalendar 2015" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdventCalendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdventCalendar" type="462c0819:PsiDirectoryNode" />
+              <item name="AdventCalendar 2015" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day1" type="462c0819:PsiDirectoryNode" />
+              <item name="day1.kt" type="24436e51:KtFileTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540895625469" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/day17" />
+      <recent name="$PROJECT_DIR$/src/day25" />
+      <recent name="$PROJECT_DIR$/src/day24" />
+      <recent name="$PROJECT_DIR$/src/day23" />
+      <recent name="$PROJECT_DIR$/src/day22" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/day1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin.day2.Day2Kt">
+    <configuration name="2015.day1.Day1Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="AdventCalendar" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="2015.day1.Day1Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="AdventCalendar" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="app" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day15.Day15Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="AdventCalendar" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day15.Day15Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day22.Day22Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="AdventCalendar" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day22.Day22Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day24.Day24Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="AdventCalendar" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day24.Day24Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day2.Day2Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="AdventCalendar" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day2.Day2Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Kotlin.Unnamed" />
+      <item itemvalue="Kotlin.day24.Day24Kt" />
+      <item itemvalue="Kotlin.day15.Day15Kt" />
+      <item itemvalue="Kotlin.day22.Day22Kt" />
+      <item itemvalue="Kotlin.2015.day1.Day1Kt" />
+      <item itemvalue="Kotlin.day2.Day2Kt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.day2.Day2Kt" />
+        <item itemvalue="Kotlin.2015.day1.Day1Kt" />
+        <item itemvalue="Kotlin.day24.Day24Kt" />
+        <item itemvalue="Kotlin.day22.Day22Kt" />
+        <item itemvalue="Kotlin.day15.Day15Kt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a85eb711-159a-499b-ab39-640887be11ce" name="Default Changelist" comment="" />
+      <created>1540298131800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540298131800</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1440" y="-85" width="1920" height="1177" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.108093716" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32956687" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.52396166" side_tool="true" weight="0.36911488" />
+      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.4797657" weight="0.32768363" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" sideWeight="0.49840257" weight="0.32956687" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.47603834" weight="0.3258004" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4978701" weight="0.32391715" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Flutter Inspector" order="2" />
+      <window_info anchor="right" id="Flutter Outline" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.171459" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.52360517" side_tool="true" weight="0.43569553" />
+      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.4797657" weight="0.32768363" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" sideWeight="0.49840257" weight="0.32956687" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.47639486" visible="true" weight="0.4218456" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.4978701" weight="0.65725046" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Flutter Inspector" order="2" />
+      <window_info anchor="right" id="Flutter Outline" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/day13/day13.kt</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/day13/day13.kt</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/day15/day15.kt</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/day15/day15.kt</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="skills" language="kotlin" />
+        <watch expression="round" language="kotlin" />
+        <watch expression="skill.name" language="kotlin" />
+        <watch expression="mana &gt;= skill.manaCost &amp;&amp; pSkills.map { it.name }.contains(skill.name).not()" language="kotlin" />
+        <watch expression="configurations" language="kotlin" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>configurations</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>mana &gt;= skill.manaCost &amp;&amp; pSkills.map { it.name }.contains(skill.name).not()</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>skill.name</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>round</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>skills</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>possibleCombination</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>possibleCombination.sortBy { it.size }</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>possibleCombination.sortByDescending { it.size }</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pSkills.remove(it)</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pSkills.removeAt(0)</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml" />
+    <entry file="file://$PROJECT_DIR$/src/day12/day12src.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day12/day12src12.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day12/day12src122.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day14/day14src14.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day14/day14src.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day16/day16src.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day18/day18src18.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day19/day19src.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day19/day19src19.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day21/day21src.txt" />
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="1490" selection-start-line="1490" selection-end-line="1490" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day1/day1.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day3/day3.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day4/day4.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day5/day5.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day6/day6.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day7/day7.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day8/day8.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day10/day10.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day11/day11.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day12/day12.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day14/day14.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day16/day16.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day18/day18src.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day21/day21.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day18/day18.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day23/day23src.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day23/day23.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day25/day25src.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day25/day25.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day20/day20.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day17/day17src17.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day17/day17.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day9/day9.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day19/day19.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day13/day13src.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day17/day17src.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day13/day13.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day15/day15.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day15/day15src.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day22/day22src.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day24/day24src.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day24/day24src24.txt" />
+    <entry file="file://$PROJECT_DIR$/src/day24/day24.kt" />
+    <entry file="file://$PROJECT_DIR$/src/2015/day1/ff.kt" />
+    <entry file="file://$PROJECT_DIR$/src/2015/day1/day1.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day2/day2.kt" />
+    <entry file="file://$PROJECT_DIR$/src/day22/day22.kt" />
+    <entry file="file://$PROJECT_DIR$/AdventCalendar 2015/src/day1/day1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
