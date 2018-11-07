@@ -1,4 +1,4 @@
-reverse positions 1 through 6   12 +50 + 32 *5 70   31+31
+reverse positions 1 through 6
 rotate based on position of letter a
 swap position 4 with position 1
 reverse positions 1 through 5

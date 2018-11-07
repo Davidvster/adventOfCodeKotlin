@@ -10,14 +10,16 @@ fun main(args: Array<String>) {
     var values2 = mutableMapOf<Char, Int>(
             'a' to 12
     )
-    val instructions = mutableListOf<MutableList<String>>()
+    val instructions1 = mutableListOf<MutableList<String>>()
+    val instructions2 = mutableListOf<MutableList<String>>()
     File("/Users/david.valic/IdeaProjects/AdventCalendar/AdventCalendar2016/src/day23/day23src.txt").forEachLine { line ->
-        instructions.add(line.split(" ").toMutableList())
+        instructions1.add(line.split(" ").toMutableList())
+        instructions2.add(line.split(" ").toMutableList())
     }
 
-    values1 = processInstructions(instructions, values1)
+    values1 = processInstructions(instructions1, values1)
     println("part1: ${values1['a']}")
-    values2 = processInstructions(instructions, values2)
+    values2 = processInstructions(instructions2, values2)
     println("part2: ${values2['a']}")
 
 }
@@ -56,10 +58,9 @@ fun processInstructions(orders: MutableList<MutableList<String>>, values: Mutabl
             }
             "jnz" -> {
                 if ((orders[i][1].toIntOrNull() != null && orders[i][1].toInt() != 0) || values[orders[i][1].single()] != 0) {
-                    if (orders[i][2].toIntOrNull() != null ) {
-                        i += orders[i][2].toInt()
-                    } else {
-                        i += values[orders[i][2].single()]!!
+                    i+= when (orders[i][2].toIntOrNull() != null ) {
+                        true -> orders[i][2].toInt()
+                        false ->  values[orders[i][2].single()]!!
                     }
                 } else {
                     i++
