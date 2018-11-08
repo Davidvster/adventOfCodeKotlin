@@ -2,31 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="258b8242-fdba-4edf-80da-242bfbff3b9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AdventCalendar2016/day24/Day24Kt$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AdventCalendar2016/day24/Day24Kt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AdventCalendar2016/day24/day24src.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AdventCalendar2016/day25/Day25Kt$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AdventCalendar2016/day25/Day25Kt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/AdventCalendar2016/day25/day25src.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/day10.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day10/day10src.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day24/day24.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day24/day24src.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day25/day25.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day25/day25src.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24/day2424.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day24/day24src24.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AdventCalendar2015" beforeDir="false" afterPath="$PROJECT_DIR$/../AdventCalendar2015" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AdventCalendar2016/META-INF/AdventCalendar2016.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventCalendar2016/META-INF/AdventCalendar2016.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventCalendar2016/day16/Day16Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventCalendar2016/day16/Day16Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventCalendar2016/day21/day21src.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventCalendar2016/day21/day21src.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventCalendar2016/day23/Day23Kt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventCalendar2016/day23/Day23Kt$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventCalendar2016/day23/Day23Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventCalendar2016/day23/Day23Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AdventCalendar2016/day23/day23src23.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day16/day16.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day16/day16.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day21/day21src.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day21/day21src.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23/day23.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day23/day23.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day23/day23src23.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventCalendar2016/day24/Day24Kt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventCalendar2016/day24/Day24Kt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AdventCalendar2016/day24/Day24Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AdventCalendar2016/day24/Day24Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day24/day24.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day24/day24.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,37 +26,38 @@
     <session id="85148698">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="kt" value="43" />
-          <entry key="txt" value="41" />
+          <entry key="kt" value="44" />
+          <entry key="txt" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Kotlin" value="43" />
-          <entry key="PLAIN_TEXT" value="41" />
+          <entry key="Kotlin" value="44" />
+          <entry key="PLAIN_TEXT" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="kt" value="19597" />
+          <entry key="kt" value="23634" />
           <entry key="txt" value="108" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Kotlin" value="19597" />
+          <entry key="Kotlin" value="23634" />
           <entry key="PLAIN_TEXT" value="108" />
         </counts>
       </usages-collector>
@@ -99,33 +83,64 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/day24/day24.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="166">
+              <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+              <folding>
+                <element signature="e#15#87#0" expanded="true" />
+                <element signature="n#!!block;n#printMe#1" />
+                <element signature="n#!!block;n#tryPaths#0" />
+                <element signature="n#!!block;n#printMe#1" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day24/day2424.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+              <folding>
+                <element signature="e#15#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/day24/day24src24.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day10/day10.kt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day24/day24src.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="42" column="181" selection-start-line="42" selection-start-column="181" selection-end-line="42" selection-end-column="181" />
+            <state relative-caret-position="15">
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/day10/day10src.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
+            <state relative-caret-position="3450">
               <caret line="230" column="47" selection-start-line="230" selection-start-column="47" selection-end-line="230" selection-end-column="47" />
             </state>
           </provider>
@@ -151,15 +166,15 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>3146</find>
-      <find>31443700</find>
-      <find>3124888764</find>
-      <find>31443</find>
-      <find>-31</find>
-      <find>1735498986</find>
-      <find>17354989</find>
       <find>1735498</find>
       <find>173549</find>
       <find>17354</find>
@@ -183,6 +198,13 @@
       <find>4277743825</find>
       <find>44327410</find>
       <find>44327412</find>
+      <find>0</find>
+      <find>1</find>
+      <find>getDistanceMatrix</find>
+      <find>walkMaze</find>
+      <find>X</find>
+      <find>7</find>
+      <find>queue</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -191,8 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/day3/day3src3.txt" />
-        <option value="$PROJECT_DIR$/src/day4/day4src.txt" />
         <option value="$PROJECT_DIR$/src/day4/day4src4.txt" />
         <option value="$PROJECT_DIR$/src/day4/day4.kt" />
         <option value="$PROJECT_DIR$/src/day5/day5.kt" />
@@ -235,21 +255,22 @@
         <option value="$PROJECT_DIR$/src/day21/day21src.txt" />
         <option value="$PROJECT_DIR$/src/day24/day2.kt" />
         <option value="$PROJECT_DIR$/src/day23/day23.kt" />
-        <option value="$PROJECT_DIR$/src/day24/day24.kt" />
-        <option value="$PROJECT_DIR$/src/day24/day24src.txt" />
         <option value="$PROJECT_DIR$/src/day25/day25src.txt" />
         <option value="$PROJECT_DIR$/src/day25/day25.kt" />
         <option value="$PROJECT_DIR$/src/day16/day16.kt" />
-        <option value="$PROJECT_DIR$/src/day10/day10.kt" />
         <option value="$PROJECT_DIR$/src/day10/day10src.txt" />
+        <option value="$PROJECT_DIR$/src/day10/day10.kt" />
+        <option value="$PROJECT_DIR$/src/day24/day24src24.txt" />
+        <option value="$PROJECT_DIR$/src/day24/day2424.kt" />
+        <option value="$PROJECT_DIR$/src/day24/day24src.txt" />
+        <option value="$PROJECT_DIR$/src/day24/day24.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1440" />
-    <option name="y" value="-85" />
-    <option name="width" value="1920" />
-    <option name="height" value="1177" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -257,7 +278,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,6 +295,13 @@
               <item name="AdventCalendar2016" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="day10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AdventCalendar2016" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AdventCalendar2016" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="day10" type="462c0819:PsiDirectoryNode" />
+              <item name="day10.kt" type="24436e51:KtFileTreeNode" />
             </path>
             <path>
               <item name="AdventCalendar2016" type="b2602c69:ProjectViewProjectNode" />
@@ -305,13 +332,6 @@
               <item name="AdventCalendar2016" type="b2602c69:ProjectViewProjectNode" />
               <item name="AdventCalendar2016" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="day24" type="462c0819:PsiDirectoryNode" />
-              <item name="day24.kt" type="24436e51:KtFileTreeNode" />
-            </path>
-            <path>
-              <item name="AdventCalendar2016" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AdventCalendar2016" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="day25" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -325,19 +345,20 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541606672820" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541696932273" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/day24" />
       <recent name="$PROJECT_DIR$/src/day10" />
       <recent name="$PROJECT_DIR$/src/day25" />
-      <recent name="$PROJECT_DIR$/src/day24" />
       <recent name="$PROJECT_DIR$/src/day23" />
       <recent name="$PROJECT_DIR$/src/day22" />
     </key>
@@ -354,7 +375,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.day16.Day16Kt">
+  <component name="RunManager" selected="Kotlin.day24.Day24Kt">
     <configuration name="day16.Day16Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="AdventCalendar2016" />
       <option name="VM_PARAMETERS" />
@@ -368,32 +389,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day21.Day21Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="AdventCalendar2016" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="day21.Day21Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="day22.Day22Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="AdventCalendar2016" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="day22.Day22Kt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="day23.Day23Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="AdventCalendar2016" />
       <option name="VM_PARAMETERS" />
@@ -402,6 +397,32 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="day23.Day23Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day24.Day2424Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="AdventCalendar2016" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day24.Day2424Kt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day24.Day24Kt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="AdventCalendar2016" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="day24.Day24Kt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -421,19 +442,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.day21.Day21Kt" />
-      <item itemvalue="Kotlin.day22.Day22Kt" />
       <item itemvalue="Kotlin.day23.Day23Kt" />
       <item itemvalue="Kotlin.day25.Day25Kt" />
       <item itemvalue="Kotlin.day16.Day16Kt" />
+      <item itemvalue="Kotlin.day24.Day24Kt" />
+      <item itemvalue="Kotlin.day24.Day2424Kt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.day24.Day24Kt" />
+        <item itemvalue="Kotlin.day24.Day2424Kt" />
         <item itemvalue="Kotlin.day16.Day16Kt" />
         <item itemvalue="Kotlin.day25.Day25Kt" />
         <item itemvalue="Kotlin.day23.Day23Kt" />
-        <item itemvalue="Kotlin.day22.Day22Kt" />
-        <item itemvalue="Kotlin.day21.Day21Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -451,10 +472,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="-85" width="1920" height="1177" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="823" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18903089" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -463,12 +484,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37193975" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.527307" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.55932206" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5320151" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32956687" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32956687" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32768363" />
@@ -563,76 +584,81 @@
           <properties />
           <option name="timeStamp" value="121" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/day24/day2424.kt</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/day24/day24.kt</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
-        <watch expression="orders[i]" language="kotlin" />
-        <watch expression="(orders[i][1].toIntOrNull() != null &amp;&amp; orders[i][1].toInt() != 0)" language="kotlin" />
-        <watch expression="values[orders[i][1].single()]" language="kotlin" />
-        <watch expression="values1['a']!! + 1" language="kotlin" />
-        <watch expression="values1['a']!! + 1" language="kotlin" />
+        <watch expression="distances[Pair(0, cities[0])]!!" language="kotlin" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>values1['a']!! + 1</expression-string>
+        <expression-string>distances[Pair(0, cities[0])]!!</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>values[orders[i][1].single()]</expression-string>
+        <expression-string>positions</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>(orders[i][1].toIntOrNull() != null &amp;&amp; orders[i][1].toInt() != 0)</expression-string>
+        <expression-string>positions[first]!!</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>orders[i]</expression-string>
+        <expression-string>meta[3962]</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>orders[i][1].single()</expression-string>
+        <expression-string>meta[3963]</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>values[orders[i][1].single()]!! + i</expression-string>
+        <expression-string>meta[3964]</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>values[orders[i][1].single()]?:0 + i</expression-string>
+        <expression-string>beenHere</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>values[orders[i][1].single()]?:0 + i &lt; orders.size</expression-string>
+        <expression-string>toCollect</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>values[orders[i][2].single()]</expression-string>
+        <expression-string>labyrinth</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>startPosition</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/day3/day3src.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day4/day4src4.txt" />
     <entry file="file://$PROJECT_DIR$/src/day4/day4src.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14190">
@@ -836,6 +862,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/day25/day25.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day16/day16.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day10/day10src.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3450">
+          <caret line="230" column="47" selection-start-line="230" selection-start-column="47" selection-end-line="230" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/day25/day25src.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -850,41 +897,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day16/day16.kt">
+    <entry file="file://$PROJECT_DIR$/src/day10/day10.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/day25/day25.kt">
+    <entry file="file://$PROJECT_DIR$/src/day24/day24src24.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day24/day24src.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/day24/day2424.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding>
+            <element signature="e#15#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/day24/day24.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day10/day10.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day24/day24src.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="42" column="181" selection-start-line="42" selection-start-column="181" selection-end-line="42" selection-end-column="181" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/day10/day10src.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="230" column="47" selection-start-line="230" selection-start-column="47" selection-end-line="230" selection-end-column="47" />
+        <state relative-caret-position="166">
+          <caret line="60" column="10" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+          <folding>
+            <element signature="e#15#87#0" expanded="true" />
+            <element signature="n#!!block;n#printMe#1" />
+            <element signature="n#!!block;n#tryPaths#0" />
+            <element signature="n#!!block;n#printMe#1" />
+          </folding>
         </state>
       </provider>
     </entry>
