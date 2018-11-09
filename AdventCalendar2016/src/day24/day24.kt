@@ -1,9 +1,7 @@
 package day24
 
-import com.sun.org.apache.xpath.internal.operations.Bool
 import java.io.File
 import java.util.*
-import kotlin.collections.HashMap
 
 private val labyrinth = mutableListOf<MutableList<Int>>()
 private val toCollect = mutableListOf<Int>()
