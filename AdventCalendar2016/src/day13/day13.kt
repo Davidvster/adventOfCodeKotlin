@@ -3,7 +3,6 @@ package day13
 import java.util.*
 
 private const val puzzle = 1364
-private var visitedEndpoints = mutableListOf<Pair<Int, Int>>()
 
 fun main(args: Array<String>) {
     val startPosition = Pair(1,1)
@@ -14,33 +13,6 @@ fun main(args: Array<String>) {
 
     val path2 = breadthFirstSearch2(startPosition)
     println("part2: ${path2.size}")
-}
-
-fun distinctLocations(currentPosition: Pair<Int, Int>, currentSteps: Int, maxSteps: Int, visitedTmp: MutableList<Pair<Int, Int>>): MutableList<Pair<Int, Int>> {
-    val visited = visitedTmp.toMutableList()
-    visited.add(currentPosition)
-    if (currentSteps == maxSteps) {
-        return visited
-    } else {
-        var successors = listOf(
-                Pair(currentPosition.first+1, currentPosition.second),
-                Pair(currentPosition.first, currentPosition.second-1),
-                Pair(currentPosition.first-1, currentPosition.second),
-                Pair(currentPosition.first, currentPosition.second+1))
-        successors = successors.filter { it ->
-            isOpenSpace(it.first, it.second)
-        }.filter {
-            it.first >= 0 && it.second >= 0
-        }.filter {
-            (it in visited).not()
-        }
-        successors.forEach {
-            visitedEndpoints.addAll(distinctLocations(it, currentSteps + 1, maxSteps, visited))
-            visitedEndpoints = visitedEndpoints.asSequence().distinct().toMutableList()
-        }
-    }
-
-    return mutableListOf()
 }
 
 fun isOpenSpace(x: Int, y: Int, designerNumber: Int = puzzle): Boolean {
@@ -75,9 +47,7 @@ fun breadthFirstSearch(startPosition: Pair<Int, Int>, endPosition: Pair<Int, Int
                 .filter { isOpenSpace(it.first, it.second) }
 
         for (child in successors) {
-
             if (child in closedSet) continue
-
             if ((child in openSet).not()) {
                 meta[child] = subtreeRoot //# create metadata for these nodes
                 openSet.add(child)              //# enqueue these nodes
