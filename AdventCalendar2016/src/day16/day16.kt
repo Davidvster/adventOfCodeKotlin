@@ -3,8 +3,7 @@ package day16
 fun main(args: Array<String>) {
     val puzzle = "11100010111110100"
     val length1 = 272
-    val length2 = 27211
-//    val length2 = 35651584
+    val length2 = 35651584
 
     val correctChecksum1 = getChecksum(puzzle, length1)
     println("part1: $correctChecksum1")
@@ -28,14 +27,15 @@ fun getChecksum(puzzle: String, length: Int): String {
     var evenChecksum = true
     var correctChecksum = puzzleResult1
     while (evenChecksum) {
-        var checksum = ""
-        (0 until correctChecksum.length/2).forEach { i ->
-            val index = i*2
-            checksum += when (correctChecksum[index] == correctChecksum[index+1]) {
-                true -> "1"
-                false -> "0"
-            }
-        }
+        val checksum = (0 until correctChecksum.length/2)
+                .mapNotNull {
+                    if (correctChecksum[it*2] == correctChecksum[it*2+1]) {
+                        "1"
+                    } else {
+                        "0"
+                    }
+                }
+                .joinToString("")
         if (checksum.length %2 != 0) {
             evenChecksum = false
         }

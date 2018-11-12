@@ -2,6 +2,7 @@ package day19
 
 fun main(args: Array<String>) {
     val numElves = 3004953
+//    val numElves = 11
     val elves1 = MutableList(numElves){1}
 //part1
     var end1 = -1
@@ -54,9 +55,15 @@ fun main(args: Array<String>) {
     var i = 0
     while (elves2.size > 1) {
         if ((elves2.size)/2+i >= elves2.size) {
-            elves2.removeAt((elves2.size)/2+i - elves2.size)
+            elves2.removeAt(elves2.size/2+i - elves2.size)
+            if (elves2.size/2+i - elves2.size < i) {
+                i--
+            }
         } else {
-            elves2.removeAt(((elves2.size)/2+i))
+            elves2.removeAt(elves2.size/2+i)
+            if (elves2.size/2+i < i) {
+                i--
+            }
         }
         i++
         if (i >= elves2.size) {

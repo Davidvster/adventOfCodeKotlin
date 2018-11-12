@@ -1,26 +1,55 @@
 package day13
 
 import java.util.*
+
 private const val puzzle = 1364
+private var visitedEndpoints = mutableListOf<Pair<Int, Int>>()
+
 fun main(args: Array<String>) {
     val startPosition = Pair(1,1)
     val endPosition = Pair(31,39)
 
     val path1 = breadthFirstSearch(startPosition, endPosition)
-    println("part1: $path1")
+    println("part1: ${path1?.size}")
+
+    val path2 = breadthFirstSearch2(startPosition)
+    println("part2: ${path2.size}")
+}
+
+fun distinctLocations(currentPosition: Pair<Int, Int>, currentSteps: Int, maxSteps: Int, visitedTmp: MutableList<Pair<Int, Int>>): MutableList<Pair<Int, Int>> {
+    val visited = visitedTmp.toMutableList()
+    visited.add(currentPosition)
+    if (currentSteps == maxSteps) {
+        return visited
+    } else {
+        var successors = listOf(
+                Pair(currentPosition.first+1, currentPosition.second),
+                Pair(currentPosition.first, currentPosition.second-1),
+                Pair(currentPosition.first-1, currentPosition.second),
+                Pair(currentPosition.first, currentPosition.second+1))
+        successors = successors.filter { it ->
+            isOpenSpace(it.first, it.second)
+        }.filter {
+            it.first >= 0 && it.second >= 0
+        }.filter {
+            (it in visited).not()
+        }
+        successors.forEach {
+            visitedEndpoints.addAll(distinctLocations(it, currentSteps + 1, maxSteps, visited))
+            visitedEndpoints = visitedEndpoints.asSequence().distinct().toMutableList()
+        }
+    }
+
+    return mutableListOf()
 }
 
 fun isOpenSpace(x: Int, y: Int, designerNumber: Int = puzzle): Boolean {
     var number = x * x + 3 * x + 2 * x * y + y + y * y
     number += designerNumber
-    val converted = Integer.toBinaryString(number)
-    println("x: $x   y: $y  converted $converted ${converted.toString().count { it == '1' }}")
     return Integer.toBinaryString(number).count { it == '1' } %2 == 0
 }
 
-fun breadthFirstSearch(startPosition: Pair<Int, Int>, endPosition: Pair<Int, Int>): Int? {
-
-
+fun breadthFirstSearch(startPosition: Pair<Int, Int>, endPosition: Pair<Int, Int>): MutableList<Pair<Int, Int>>? {
     val openSet = ArrayDeque<Pair<Int, Int>>()
 
     val closedSet = mutableSetOf<Pair<Int, Int>>()
@@ -29,40 +58,38 @@ fun breadthFirstSearch(startPosition: Pair<Int, Int>, endPosition: Pair<Int, Int
     meta[startPosition] = Pair(-1, -1)
     openSet.add(startPosition)
     while (openSet.isNotEmpty()) {
+        val subtreeRoot = openSet.remove()
 
-
-        val subtree_root = openSet.remove()
-
-        if (subtree_root == endPosition) {
-            return constructPath(subtree_root, meta)
+        if (subtreeRoot == endPosition) {
+            return constructPath(subtreeRoot, meta)
         }
 
         var successors = listOf(
-                Pair(subtree_root.first+1, subtree_root.second),
-                Pair(subtree_root.first, subtree_root.second-1),
-                Pair(subtree_root.first-1, subtree_root.second),
-                Pair(subtree_root.first, subtree_root.second+1))
+                Pair(subtreeRoot.first+1, subtreeRoot.second),
+                Pair(subtreeRoot.first, subtreeRoot.second-1),
+                Pair(subtreeRoot.first-1, subtreeRoot.second),
+                Pair(subtreeRoot.first, subtreeRoot.second+1))
 
-        successors = successors.filter { it ->
-            isOpenSpace(it.first, it.second)
-        }
+        successors = successors
+                .filter { it.first >= 0 && it.second >= 0 }
+                .filter { isOpenSpace(it.first, it.second) }
 
         for (child in successors) {
 
             if (child in closedSet) continue
 
             if ((child in openSet).not()) {
-                meta[child] = subtree_root //# create metadata for these nodes
+                meta[child] = subtreeRoot //# create metadata for these nodes
                 openSet.add(child)              //# enqueue these nodes
             }
         }
 
-        closedSet.add(subtree_root)
+        closedSet.add(subtreeRoot)
     }
     return null
 }
 
-fun constructPath(state: Pair<Int, Int>, meta: MutableMap<Pair<Int, Int>, Pair<Int, Int>>): Int {
+fun constructPath(state: Pair<Int, Int>, meta: MutableMap<Pair<Int, Int>, Pair<Int, Int>>): MutableList<Pair<Int, Int>> {
     var state = state
     val actionList = mutableListOf<Pair<Int, Int>>()
 
@@ -72,6 +99,34 @@ fun constructPath(state: Pair<Int, Int>, meta: MutableMap<Pair<Int, Int>, Pair<I
         actionList.add(action!!)
     }
 
-    return actionList.size
+    return actionList
+}
 
+fun breadthFirstSearch2(startPosition: Pair<Int, Int>): MutableSet<Pair<Int, Int>> {
+    val openSet = ArrayDeque<Pair<Pair<Int, Int>, Int>>()
+
+    val visited = mutableSetOf<Pair<Int, Int>>()
+
+    openSet.add(Pair(startPosition, 0))
+    while (openSet.isNotEmpty()) {
+        val subtreeRoot = openSet.remove()
+
+        var successors = listOf(
+                Pair(Pair(subtreeRoot.first.first+1, subtreeRoot.first.second), subtreeRoot.second+1),
+                Pair(Pair(subtreeRoot.first.first, subtreeRoot.first.second-1), subtreeRoot.second+1),
+                Pair(Pair(subtreeRoot.first.first-1, subtreeRoot.first.second), subtreeRoot.second+1),
+                Pair(Pair(subtreeRoot.first.first, subtreeRoot.first.second+1), subtreeRoot.second+1))
+
+        successors = successors
+                .filter { it.first.first >= 0 && it.first.second >= 0 }
+                .filter { isOpenSpace(it.first.first, it.first.second) }
+
+        for (child in successors) {
+            if (child.second <= 50 && child.first !in visited) {
+                openSet.add(child)
+                visited.add(child.first)
+            }
+        }
+    }
+    return visited
 }
