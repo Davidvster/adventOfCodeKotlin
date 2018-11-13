@@ -49,7 +49,7 @@ fun main(args: Array<String>) {
     var direction = 0
     while (currentNumber < puzzle) {
         grid[Pair(x,y)] = currentNumber
-        if (Math.abs(x) == Math.abs(y)) {
+        if ((Math.abs(x) == Math.abs(y) && direction != 1) || (x == y+1 && direction == 1) ) {
             direction = direction.nextDirection()
         }
         when (direction) {
@@ -58,7 +58,6 @@ fun main(args: Array<String>) {
             3 -> x --
             4 -> y ++
         }
-        direction.inc()
 
         currentNumber = grid.getOrDefault(Pair(x-1,y), 0) +
                 grid.getOrDefault(Pair(x-1,y-1), 0) +
